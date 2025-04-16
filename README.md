@@ -62,7 +62,7 @@ streamlit run app.py
 
 **Sushmitha Krishna Kumar**  
 _Data Science Delivery Manager @ H2O.ai_  
-[GitHub](https://github.com/Sushi-KK) • [LinkedIn](https://www.linkedin.com/in/sushmithakrishnakumar/)
+[GitHub](https://github.com/Sushi-KK) • [LinkedIn](https://www.linkedin.com/in/sushmitha-krishna-kumar-8a7385122/)
 
 
 
