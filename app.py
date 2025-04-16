@@ -68,7 +68,15 @@ st.markdown("""
         .arrow-button {
             text-align: right;
             font-size: 1.5rem;
+        }
+
+        .arrow-button a {
+            text-decoration: none;
             color: #f9a825;
+        }
+
+        .arrow-button a:hover {
+            color: #e65100;
         }
     </style>
 """, unsafe_allow_html=True)
@@ -81,8 +89,8 @@ st.markdown('<div class="centered-container">', unsafe_allow_html=True)
 # ----------------------------
 # Title and Subtitle
 # ----------------------------
-st.markdown('<div class="title-highlight">H2O.ai <span>Catalog</span></div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">Collection of h2oGPTe Use Cases</div>', unsafe_allow_html=True)
+st.markdown('<div class="title-highlight">h2oGPTe <span>Catalog</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">Collection of h2oGPTe Agents Use Cases</div>', unsafe_allow_html=True)
 
 # ----------------------------
 # Filters (Side by Side)
@@ -123,7 +131,9 @@ if filtered:
                         <p>{case['description']}</p>
                         {"".join(f"<span class='tag'>{tag}</span>" for tag in case['tags'])}
                     </div>
-                    <div class="arrow-button">➜</div>
+                    <div class="arrow-button">
+                        <a href="{case.get('link', '#')}" target="_blank">➜</a>
+                    </div>
                 </div>
             """, unsafe_allow_html=True)
 else:
