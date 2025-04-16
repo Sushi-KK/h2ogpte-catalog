@@ -58,8 +58,7 @@ streamlit run app.py
 ---
 🧑‍💻 Built By
 Sushmitha Krishna Kumar
-
+Data Science Delivery Manager @ H2O.ai
 GitHub | LinkedIn
 
-Data Science Delivery Manager @ H2O.ai
 
