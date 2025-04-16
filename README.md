@@ -54,7 +54,7 @@ streamlit run app.py
 ├── requirements.txt           # Python dependencies
 └── .streamlit/
     └── config.toml            # (Optional) UI config
-```bash
+```
 
 🧑‍💻 Built By
 Sushmitha Krishna Kumar
