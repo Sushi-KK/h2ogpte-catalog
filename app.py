@@ -5,7 +5,7 @@ import json
 with open("use_case_metadata.json", "r") as f:
     use_cases = json.load(f)
 
-st.set_page_config(page_title="H2O.ai Catalog", layout="wide")
+st.set_page_config(page_title="h2oGPTe Catalog", layout="wide")
 
 # ----------------------------
 # Custom CSS for Layout & Font
