@@ -55,10 +55,11 @@ streamlit run app.py
 └── .streamlit/
     └── config.toml            # (Optional) UI config
 ```
-
-```
+---
 🧑‍💻 Built By
 Sushmitha Krishna Kumar
+
 GitHub | LinkedIn
+
 Data Science Delivery Manager @ H2O.ai
-```
+
