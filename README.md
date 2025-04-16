@@ -56,7 +56,9 @@ streamlit run app.py
     └── config.toml            # (Optional) UI config
 ```
 
+```bash
 🧑‍💻 Built By
 Sushmitha Krishna Kumar
 GitHub | LinkedIn
 Data Science Delivery Manager @ H2O.ai
+```
