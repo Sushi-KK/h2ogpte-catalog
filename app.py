@@ -8,41 +8,41 @@ with open("use_case_metadata.json", "r") as f:
 st.set_page_config(page_title="h2oGPTe Catalog", layout="wide")
 
 # ----------------------------
-# Custom CSS for Layout & Font
+# Hide Sidebar + Custom Styling
 # ----------------------------
 st.markdown("""
     <style>
+        [data-testid="stSidebar"], [data-testid="stSidebarNav"] {
+            display: none !important;
+        }
+        .block-container {
+            padding-top: 2rem;
+        }
         @import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;600&display=swap');
-
         html, body, [class*="css"] {
             font-family: 'Hind', sans-serif;
         }
-
         .centered-container {
             max-width: 1100px;
             margin: 0 auto;
             padding: 1rem 2rem;
         }
-
         .title-highlight {
             font-size: 2.8rem;
             font-weight: 700;
             text-align: center;
         }
-
         .title-highlight span {
             background-color: #FFD54F;
             padding: 0 0.4rem;
             border-radius: 4px;
         }
-
         .subtitle {
             font-size: 1.2rem;
             color: #555;
             text-align: center;
             margin-bottom: 2rem;
         }
-
         .tile {
             background-color: #fff;
             padding: 1.5rem;
@@ -53,7 +53,6 @@ st.markdown("""
             flex-direction: column;
             justify-content: space-between;
         }
-
         .tag {
             display: inline-block;
             background-color: #ffecb3;
@@ -64,17 +63,14 @@ st.markdown("""
             margin-top: 0.3rem;
             border-radius: 12px;
         }
-
         .arrow-button {
             text-align: right;
             font-size: 1.5rem;
         }
-
         .arrow-button a {
             text-decoration: none;
             color: #f9a825;
         }
-
         .arrow-button a:hover {
             color: #e65100;
         }
@@ -123,6 +119,8 @@ cols = st.columns(3)
 if filtered:
     for idx, case in enumerate(filtered):
         with cols[idx % 3]:
+            link = case.get('link', '#')
+            target_attr = "_self" if link.startswith("/") else "_blank"
             st.markdown(f"""
                 <div class="tile">
                     <div>
@@ -132,7 +130,7 @@ if filtered:
                         {"".join(f"<span class='tag'>{tag}</span>" for tag in case['tags'])}
                     </div>
                     <div class="arrow-button">
-                        <a href="{case.get('link', '#')}" target="_blank">➜</a>
+                        <a href="{link}" target="{target_attr}">➜</a>
                     </div>
                 </div>
             """, unsafe_allow_html=True)

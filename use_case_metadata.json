@@ -1,27 +1,64 @@
 [
     {
-      "title": "📄 Policy Document Q&A",
-      "description": "Upload a policy document (PDF) and ask natural language questions. Powered by Retrieval-Augmented Generation (RAG).",
-      "tags": ["RAG", "PDF", "Q&A", "GenAI"],
-      "route": "policy_qa",
-      "industry": "Insurance",
-      "problem_type": "Q&A / RAG"
+        "title": "🔧 Custom GPT",
+        "description": "Build and configure your own custom GPT workflows and prompts.",
+        "tags": ["Prompt Engineering", "Custom GPT", "LLM"],
+        "route": "custom-gpt",
+        "industry": "Tech",
+        "problem_type": "LLM Prompting",
+        "link": "/custom_gpt"
     },
     {
-      "title": "🧾 SQL Code Doc & Snippet Generator",
-      "description": "Generate SQL snippets from natural language prompts or auto-document existing SQL using an LLM.",
-      "tags": ["LLM", "SQL", "Prompt-to-Code", "Code Explanation"],
-      "route": "sql_doc_generator",
-      "industry": "Banking",
-      "problem_type": "Text-to-Code"
+        "title": "🛡️ LLM Guardrails",
+        "description": "Demonstrates how to implement safety and validation filters around LLMs.",
+        "tags": ["LLM", "Guardrails", "Validation"],
+        "route": "llm_guardrails",
+        "industry": "AI Governance",
+        "problem_type": "Safety & Monitoring"
+    },  
+    {
+        "title": "📰 LLM Feature Story",
+        "description": "Turn structured data into narrative-driven articles using LLMs.",
+        "tags": ["LLM", "Storytelling", "Narratives"],
+        "route": "llm-feature-story",
+        "industry": "Journalism",
+        "problem_type": "Content Generation"
     },
     {
-      "title": "🗺️ Data Lineage Mapping",
-      "description": "Automatically map the flow of data from source to report using metadata, logs, and lineage rules.",
-      "tags": ["Lineage", "ETL", "Data Flow", "Metadata"],
-      "route": "data_lineage_mapping",
-      "industry": "Enterprise Analytics",
-      "problem_type": "Data Discovery"
+        "title": "📋 Meeting AI Assistant",
+        "description": "Analyze meeting transcripts to extract key decisions and action items.",
+        "tags": ["NLP", "Transcripts", "Meetings"],
+        "route": "meeting-ai",
+        "industry": "Corporate",
+        "problem_type": "Summarization"
+    },
+    {
+        "title": "🕵️ ScamShield",
+        "description": "Detect and flag potential scam messages using LLMs and heuristics.",
+        "tags": ["LLM", "Security", "Scam Detection"],
+        "route": "scamshield",
+        "industry": "Finance",
+        "problem_type": "Anomaly Detection"
+    },
+    {
+        "title": "🧓 Vulnerability Detection",
+        "description": "Identify at-risk individuals in chat transcripts using NLP and tagging.",
+        "tags": ["NLP", "Risk", "Social Good"],
+        "route": "vulnerable-detection",
+        "industry": "Public Sector",
+        "problem_type": "Classification"
+    },
+    {
+        "title": "🧠 GenAI + NBC",
+        "description": "Auto-summarize news or broadcast content with generative models.",
+        "tags": ["Summarization", "Media", "GenAI"],
+        "route": "genai-nbc",
+        "industry": "Media & Communications",
+        "problem_type": "Summarization"
     }
+      
   ]
+  
+
+
   
