@@ -178,5 +178,65 @@
     "problem_type": "Version Comparison",
     "link": "/diff-tool",
     "author": "Dipam Chakraborty"
+  },
+  {
+    "title": "📊 Rework Analytics",
+    "description": "Analyze and reduce repetitive rework patterns across operations or software development cycles.",
+    "tags": ["Analytics", "Operations", "Productivity"],
+    "route": "rework-analytics",
+    "industry": "Enterprise Ops",
+    "problem_type": "Operational Efficiency",
+    "link": "/19-rework-analytics",
+    "author": "Akanksha Richhariya"
+  },
+  {
+    "title": "🎥 Video Analytics",
+    "description": "Extract and analyze insights from video data using LLM and CV techniques.",
+    "tags": ["Video", "Computer Vision", "LLM"],
+    "route": "video-analytics",
+    "industry": "Media",
+    "problem_type": "Video Intelligence",
+    "link": "/20-video-analytics",
+    "author": "Laksika Tharmalingam"
+  },
+  {
+    "title": "📡 Telecom Insights",
+    "description": "Analyze customer churn, usage trends, and service quality from telecom data using AI.",
+    "tags": ["Telecom", "Churn", "Customer Analytics"],
+    "route": "telecom",
+    "industry": "Telecommunications",
+    "problem_type": "Customer Analytics",
+    "link": "/21-telecom",
+    "author": "Laksika Tharmalingam"
+  },
+  {
+    "title": "🧪 Synthetic Data Generator",
+    "description": "Generate synthetic datasets for AI model development, testing, and data privacy compliance.",
+    "tags": ["Synthetic Data", "Data Privacy", "AI Training"],
+    "route": "synthetic-data-generator",
+    "industry": "Tech",
+    "problem_type": "Data Augmentation",
+    "link": "/22-synthetic-data-generator",
+    "author": "Laksika Tharmalingam"
+  },
+  {
+    "title": "🤖 Model Mate",
+    "description": "Assist in model governance, review, and documentation using GenAI.",
+    "tags": ["Model Governance", "GenAI", "ML Ops"],
+    "route": "model-mate",
+    "industry": "AI Governance",
+    "problem_type": "Model Documentation",
+    "link": "/23-model-mate",
+    "author": "Julain Garratt"
+  },
+  {
+    "title": "📞 Contact Center Insights",
+    "description": "Analyze customer-agent conversations for sentiment, complaints, and call drivers.",
+    "tags": ["Contact Center", "NLP", "Voice Analytics"],
+    "route": "contact-center",
+    "industry": "Banking",
+    "problem_type": "Customer Service Automation",
+    "link": "/24-contact-center",
+    "author": "Julain Garratt"
   }
 ]
