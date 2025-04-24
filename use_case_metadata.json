@@ -1,64 +1,182 @@
 [
-    {
-        "title": "🔧 Custom GPT",
-        "description": "Build and configure your own custom GPT workflows and prompts.",
-        "tags": ["Prompt Engineering", "Custom GPT", "LLM"],
-        "route": "custom-gpt",
-        "industry": "Tech",
-        "problem_type": "LLM Prompting",
-        "link": "/custom_gpt"
-    },
-    {
-        "title": "🛡️ LLM Guardrails",
-        "description": "Demonstrates how to implement safety and validation filters around LLMs.",
-        "tags": ["LLM", "Guardrails", "Validation"],
-        "route": "llm_guardrails",
-        "industry": "AI Governance",
-        "problem_type": "Safety & Monitoring"
-    },  
-    {
-        "title": "📰 LLM Feature Story",
-        "description": "Turn structured data into narrative-driven articles using LLMs.",
-        "tags": ["LLM", "Storytelling", "Narratives"],
-        "route": "llm-feature-story",
-        "industry": "Journalism",
-        "problem_type": "Content Generation"
-    },
-    {
-        "title": "📋 Meeting AI Assistant",
-        "description": "Analyze meeting transcripts to extract key decisions and action items.",
-        "tags": ["NLP", "Transcripts", "Meetings"],
-        "route": "meeting-ai",
-        "industry": "Corporate",
-        "problem_type": "Summarization"
-    },
-    {
-        "title": "🕵️ ScamShield",
-        "description": "Detect and flag potential scam messages using LLMs and heuristics.",
-        "tags": ["LLM", "Security", "Scam Detection"],
-        "route": "scamshield",
-        "industry": "Finance",
-        "problem_type": "Anomaly Detection"
-    },
-    {
-        "title": "🧓 Vulnerability Detection",
-        "description": "Identify at-risk individuals in chat transcripts using NLP and tagging.",
-        "tags": ["NLP", "Risk", "Social Good"],
-        "route": "vulnerable-detection",
-        "industry": "Public Sector",
-        "problem_type": "Classification"
-    },
-    {
-        "title": "🧠 GenAI + NBC",
-        "description": "Auto-summarize news or broadcast content with generative models.",
-        "tags": ["Summarization", "Media", "GenAI"],
-        "route": "genai-nbc",
-        "industry": "Media & Communications",
-        "problem_type": "Summarization"
-    }
-      
-  ]
-  
-
-
-  
+  {
+    "title": "🔧 Custom GPT",
+    "description": "Build and configure your own custom GPT workflows and prompts.",
+    "tags": ["Prompt Engineering", "Custom GPT", "LLM"],
+    "route": "custom-gpt",
+    "industry": "Tech",
+    "problem_type": "LLM Prompting",
+    "link": "/custom-gpt",
+    "author": "Sanjeepan"
+  },
+  {
+    "title": "🛡️ LLM Guardrails",
+    "description": "Demonstrates how to implement safety and validation filters around LLMs.",
+    "tags": ["LLM", "Guardrails", "Validation"],
+    "route": "llm_guardrails",
+    "industry": "AI Governance",
+    "problem_type": "Safety & Monitoring",
+    "link": "/llm-guardrails",
+    "author": "Sanjeepan"
+  },
+  {
+    "title": "📰 LLM Feature Story",
+    "description": "Turn structured data into narrative-driven articles using LLMs.",
+    "tags": ["LLM", "Storytelling", "Narratives"],
+    "route": "llm-feature-story",
+    "industry": "Journalism",
+    "problem_type": "Content Generation",
+    "link": "/llm-feature-store",
+    "author": "Sanjeepan"
+  },
+  {
+    "title": "📋 Meeting AI Assistant",
+    "description": "Analyze meeting transcripts to extract key decisions and action items.",
+    "tags": ["NLP", "Transcripts", "Meetings"],
+    "route": "meeting-ai",
+    "industry": "Corporate",
+    "problem_type": "Summarization",
+    "link": "/meeting-ai-assistant",
+    "author": "Sanjeepan"
+  },
+  {
+    "title": "🕵️ ScamShield",
+    "description": "Detect and flag potential scam messages using LLMs and heuristics.",
+    "tags": ["LLM", "Security", "Scam Detection"],
+    "route": "scamshield",
+    "industry": "Finance",
+    "problem_type": "Anomaly Detection",
+    "link": "/scam-shield",
+    "author": "Sanjeepan"
+  },
+  {
+    "title": "🧓 Vulnerability Detection",
+    "description": "Identify at-risk individuals in chat transcripts using NLP and tagging.",
+    "tags": ["NLP", "Risk", "Social Good"],
+    "route": "vulnerable-detection",
+    "industry": "Public Sector",
+    "problem_type": "Classification",
+    "link": "/vulnerability-detection",
+    "author": "Sanjeepan"
+  },
+  {
+    "title": "🧠 GenAI + NBC",
+    "description": "Auto-summarize news or broadcast content with generative models.",
+    "tags": ["Summarization", "Media", "GenAI"],
+    "route": "genai-nbc",
+    "industry": "Media & Communications",
+    "problem_type": "Summarization",
+    "link": "/genai-nbc",
+    "author": "Sanjeepan"
+  },
+  {
+    "title": "🤖 Ninja Chatbot",
+    "description": "An intelligent assistant built using LLMs to handle enterprise chat workflows.",
+    "tags": ["Chatbot", "LLM", "Conversational AI"],
+    "route": "ninja_chatbot",
+    "industry": "Cross-Industry",
+    "problem_type": "Customer Support",
+    "link": "/ninja-chatbot",
+    "author": "Laksika Tharmalingam"
+  },
+  {
+    "title": "📊 Risk Summarizer",
+    "description": "Summarizes key financial and operational risks from large reports using GenAI.",
+    "tags": ["Risk", "Summary", "GenAI"],
+    "route": "risk_summarizer",
+    "industry": "Finance",
+    "problem_type": "Risk Analysis",
+    "link": "/risk-summarizer",
+    "author": "Nishaanthini Gnanavel"
+  },
+  {
+    "title": "🏷️ Stamp Duty Automation",
+    "description": "Automates calculation and documentation of stamp duty obligations from financial contracts.",
+    "tags": ["Tax", "Automation", "Document Intelligence"],
+    "route": "stamp-duty-automation",
+    "industry": "Real Estate",
+    "problem_type": "Tax Calculation",
+    "link": "/stamp-duty-automation",
+    "author": "Nishaanthini Gnanavel"
+  },
+  {
+    "title": "📈 Streamline Tax Process",
+    "description": "Streamlines tax form handling, validation, and summarization using GenAI.",
+    "tags": ["Tax", "Forms", "LLM"],
+    "route": "streamline-tax-process",
+    "industry": "Government",
+    "problem_type": "Automation",
+    "link": "/streamline-tax-process",
+    "author": "Nishaanthini Gnanavel"
+  },
+  {
+    "title": "🎥 Video RAG",
+    "description": "Enables question answering and summarization over video transcripts using RAG pipelines.",
+    "tags": ["Video", "RAG", "Transcript"],
+    "route": "video-rag",
+    "industry": "Media",
+    "problem_type": "Video Intelligence",
+    "link": "/video-rag",
+    "author": "Nishaanthini Gnanavel"
+  },
+  {
+    "title": "🔍 LLM Text Detector",
+    "description": "Detects whether a given text is AI-generated or human-written.",
+    "tags": ["LLM", "Detection", "Text Quality"],
+    "route": "detect-llm-text",
+    "industry": "Education",
+    "problem_type": "Content Validation",
+    "link": "/llm-text-detector",
+    "author": "Piraveen Sivakumar"
+  },
+  {
+    "title": "🧰 GenAI AppStudio",
+    "description": "Low-code platform to build, deploy, and manage GenAI-powered business tools.",
+    "tags": ["Platform", "No-Code", "GenAI"],
+    "route": "genai-appstudio",
+    "industry": "Enterprise Tech",
+    "problem_type": "App Builder",
+    "link": "/genai-app-studio",
+    "author": "Piraveen Sivakumar"
+  },
+  {
+    "title": "📢 Complaints Classification",
+    "description": "Classifies customer complaints and routes them based on urgency and category using LLMs.",
+    "tags": ["Complaints", "NLP", "Classification"],
+    "route": "complaints-classification",
+    "industry": "Banking",
+    "problem_type": "Customer Service Automation",
+    "link": "/complaints-classification",
+    "author": "Piraveen Sivakumar"
+  },
+  {
+    "title": "📦 ProcurementGPT",
+    "description": "An LLM-powered assistant for answering procurement questions from policy documents.",
+    "tags": ["Procurement", "Q&A", "GenAI"],
+    "route": "procurementgpt",
+    "industry": "Operations",
+    "problem_type": "Document Q&A",
+    "link": "/procurement-gpt",
+    "author": "Dipam Chakraborty"
+  },
+  {
+    "title": "🔐 Data Breach Analysis",
+    "description": "Helps identify and analyze potential data breaches from incident logs using GenAI.",
+    "tags": ["Security", "Logs", "GenAI"],
+    "route": "data-breach",
+    "industry": "Cybersecurity",
+    "problem_type": "Threat Analysis",
+    "link": "/data-breach-analysis",
+    "author": "Dipam Chakraborty"
+  },
+  {
+    "title": "🆚 Diff Tool",
+    "description": "LLM-based tool to compare and summarize differences between two documents or code versions.",
+    "tags": ["Diff", "LLM", "Compare"],
+    "route": "diff-tool",
+    "industry": "DevOps",
+    "problem_type": "Version Comparison",
+    "link": "/diff-tool",
+    "author": "Dipam Chakraborty"
+  }
+]

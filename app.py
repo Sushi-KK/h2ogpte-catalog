@@ -124,10 +124,10 @@ if filtered:
             st.markdown(f"""
                 <div class="tile">
                     <div>
-                        <div style="font-size:1.6rem;">🔥</div>
                         <h4 style="margin-top:0.2rem;">{case['title']}</h4>
                         <p>{case['description']}</p>
                         {"".join(f"<span class='tag'>{tag}</span>" for tag in case['tags'])}
+                        <p style="margin-top: 1.2rem; font-size: 0.85rem; color: #888;">👤 {case.get('author', 'Unknown')}</p>
                     </div>
                     <div class="arrow-button">
                         <a href="{link}" target="{target_attr}">➜</a>
