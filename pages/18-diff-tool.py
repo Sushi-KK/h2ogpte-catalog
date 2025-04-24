@@ -127,4 +127,4 @@ st.markdown("""
 # GitHub Link
 # -----------------------------
 st.markdown('---')
-st.markdown("🔗 [View GitHub Repository](https://github.com/h2oai/apac-cds/tree/sj/custom-gpt)", unsafe_allow_html=True)
+st.markdown("🔗 [View GitHub Repository](https://github.com/h2oai/diff/)", unsafe_allow_html=True)
